@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\israe\\OneDrive - ort braude college of engineering\\packet sender new branch\\Mbedtls\\client_Dtls_MbedTLS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEC64568-D51C-4D1A-B55C-9E549331A3E6}|client_Dtls_MbedTLS\\client_Dtls_MbedTLS.vcxproj|C:\\Users\\israe\\OneDrive - ort braude college of engineering\\packet sender new branch\\Mbedtls\\client_Dtls_MbedTLS\\client_Dtls_MbedTLS\\dtlsClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EEC64568-D51C-4D1A-B55C-9E549331A3E6}|client_Dtls_MbedTLS\\client_Dtls_MbedTLS.vcxproj|solutionrelative:client_Dtls_MbedTLS\\dtlsClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dtlsClient.cpp",
+              "DocumentMoniker": "C:\\Users\\israe\\OneDrive - ort braude college of engineering\\packet sender new branch\\Mbedtls\\client_Dtls_MbedTLS\\client_Dtls_MbedTLS\\dtlsClient.cpp",
+              "RelativeDocumentMoniker": "client_Dtls_MbedTLS\\dtlsClient.cpp",
+              "ToolTip": "C:\\Users\\israe\\OneDrive - ort braude college of engineering\\packet sender new branch\\Mbedtls\\client_Dtls_MbedTLS\\client_Dtls_MbedTLS\\dtlsClient.cpp",
+              "RelativeToolTip": "client_Dtls_MbedTLS\\dtlsClient.cpp",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAqwCkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-07T11:29:13.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
