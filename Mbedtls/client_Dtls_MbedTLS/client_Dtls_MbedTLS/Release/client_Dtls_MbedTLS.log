@@ -1,0 +1,10 @@
+﻿  dtlsServer.cpp
+C:\Users\israe\OneDrive - ort braude college of engineering\mbedtls-3.6.0\mbedtls-3.6.0\include\psa\crypto_struct.h(229,13): warning C4200: nonstandard extension used: zero-sized array in struct/union
+mbedTLS.lib(ssl_tls.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  1 of 7 functions (14.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  client_Dtls_MbedTLS.vcxproj -> C:\Users\israe\OneDrive - ort braude college of engineering\packet sender new branch\Mbedtls\client_Dtls_MbedTLS\Release\client-server_Dtls_MbedTLS.exe

@@ -38,7 +38,7 @@ int main(void)
 #include "mbedtls/pk.h"
 #include <windows.h>
 
-#define SERVER_PORT "22334"
+#define SERVER_PORT "22335"
 #define SERVER_NAME "192.168.56.1"
 
 #define CA_CERT_PATH  "C:\\Users\\israe\\OneDrive - ort braude college of engineering\\rsa_encryption_new\\rsa_encryption_new\\ca-signed-cert\\signed-cert.pem"
@@ -63,7 +63,7 @@ static void my_debug(void* ctx, int level,
     fflush((FILE*)ctx);
 }
 
-int main(int argc, char* argv[])
+int main2(int argc, char* argv[])
 {
     int ret, len;
     mbedtls_net_context server_fd;
