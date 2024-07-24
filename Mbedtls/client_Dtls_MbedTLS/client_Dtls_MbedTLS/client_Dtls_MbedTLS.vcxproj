@@ -146,7 +146,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="dtlsClient.cpp" />
     <ClCompile Include="dtlsServer.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">_\Users\israe\OneDrive - ort braude college of engineering\mbedtls-3.6.0\mbedtls-3.6.0\include\psa;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>

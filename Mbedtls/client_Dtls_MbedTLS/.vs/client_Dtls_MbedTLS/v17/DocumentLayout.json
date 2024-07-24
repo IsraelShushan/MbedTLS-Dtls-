@@ -45,8 +45,7 @@
               "RelativeToolTip": "..\\..\\..\\mbedtls-3.6.0\\mbedtls-3.6.0\\programs\\ssl\\dtls_server.c",
               "ViewState": "AQIAAHEBAAAAAAAAAAAYwJgBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-17T20:35:46.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T20:35:46.335Z"
             },
             {
               "$type": "Document",
@@ -56,7 +55,7 @@
               "RelativeDocumentMoniker": "client_Dtls_MbedTLS\\dtlsServer.cpp",
               "ToolTip": "C:\\Users\\israe\\OneDrive - ort braude college of engineering\\packet sender new branch\\Mbedtls\\client_Dtls_MbedTLS\\client_Dtls_MbedTLS\\dtlsServer.cpp",
               "RelativeToolTip": "client_Dtls_MbedTLS\\dtlsServer.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAJEBAAAAAAAAAAAwwKcBAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-17T19:49:37.02Z",
               "EditorCaption": ""

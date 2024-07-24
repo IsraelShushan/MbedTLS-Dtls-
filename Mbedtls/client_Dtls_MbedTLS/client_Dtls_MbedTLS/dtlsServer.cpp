@@ -77,7 +77,7 @@ static void my_debug(void* ctx, int level,
 #define SERVER_CERT_PATH    "C:\\Users\\israe\\OneDrive - ort braude college of engineering\\rsa_encryption_new\\rsa_encryption_new\\server-signed-cert.pem"
 #define SERVER_KEY_PATH     "C:\\Users\\israe\\OneDrive - ort braude college of engineering\\rsa_encryption_new\\rsa_encryption_new\\server-key.pem"
 
-int my_recv_timeout(void* ctx, unsigned char* buf, size_t len, uint32_t timeout);
+//int my_recv_timeout(void* ctx, unsigned char* buf, size_t len, uint32_t timeout);
 
 int main(void)
 {
@@ -278,7 +278,7 @@ reset:
     }
     //int mbedtls_net_recv_timeout(&ssl, buf, sizeof(buf), max_timeout);
     mbedtls_ssl_set_bio(&ssl, &client_fd,
-        mbedtls_net_send, mbedtls_net_recv, my_recv_timeout);
+        mbedtls_net_send, mbedtls_net_recv, mbedtls_net_recv_timeout);
     // Set the timeout for blocking operations (in milliseconds)
     //mbedtls_net_recv_timeout(30000); // 
     printf(" ok\n");
@@ -299,6 +299,8 @@ reset:
         ret = 0;
         goto reset;
     }
+
+
     else if (ret != 0) {
         printf(" failed\n  ! mbedtls_ssl_handshake returned -0x%x\n\n", (unsigned int)-ret);
         goto reset;
@@ -416,7 +418,7 @@ exit:
           MBEDTLS_SSL_COOKIE_C && MBEDTLS_NET_C && MBEDTLS_ENTROPY_C &&
           MBEDTLS_CTR_DRBG_C && MBEDTLS_X509_CRT_PARSE_C && MBEDTLS_RSA_C
           && MBEDTLS_PEM_PARSE_C && MBEDTLS_TIMING_C */
-int my_recv_timeout(void* ctx, unsigned char* buf, size_t len, uint32_t timeout) {
-    timeout = 0;
-    return mbedtls_net_recv_timeout(ctx, buf, len, timeout);
-}
+//int my_recv_timeout(void* ctx, unsigned char* buf, size_t len, uint32_t timeout) {
+//    timeout = 0;
+//    return mbedtls_net_recv_timeout(ctx, buf, len, timeout);
+//}
